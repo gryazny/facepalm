@@ -25,7 +25,7 @@ img{
   width: 1025px;
   height: 224px;
   background: #91AEC4;
-  margin-top: 1994px;
+  margin-top: 1894px;
 }
 .cir {
   position: absolute;
@@ -40,15 +40,17 @@ img{
   height: 300px;
   border-radius: 50%;
   background: #91AEC4;
-  margin-top: 1860px;
+  margin-top: 1760px;
   margin-left: 362px;
 }
 p {
   position: absolute;
   width: 100px;
   margin-left: 243px;
-  margin-top: 1900px;
+  margin-top: 1800px;
+  transition-duration: 200ms;
 }
+
 #video {
     border: 1px solid black;
     box-shadow: 2px 2px 3px black;
@@ -65,7 +67,8 @@ p {
     display: none;
 }
 .camera {
-    width: 340px;
+    width: 700px;
+    height: 700px;
     display: inline-block;
 }
 .output {
@@ -74,6 +77,8 @@ p {
 }
 #startbutton {
     display: block;
+    top: 1800px;
+    left: 230px;
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -91,7 +96,10 @@ p {
     opacity: 1;
 }
 .contentarea {
+    position: absolute;
     font-size: 16px;
     font-family: "Lucida Grande", "Arial", sans-serif;
     width: 760px;
+    top: 400px;
+    left: 170px;
 }
