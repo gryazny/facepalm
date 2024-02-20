@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>piggy bank</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+  <div class="cir"></div>
+  <img src="img\me.jpg">
+  <h1>piggy bank</h1>
+  <div class="circle"></div>
+  <div class="rectangle"></div>
+  <p><img src="img\icons8-камера-100.png"><p>
+    <!DOCTYPE html>
+    <html>
+    <div>
+      <video id="videoElement" autoplay></video>
+    </div>
+
+    <script>
+          // Получаем элементы страницы
+      const videoElement = document.getElementById('videoElement');
+
+          // Запрашиваем доступ к веб-камере
+      navigator.mediaDevices
+        .getUserMedia({ video: true }) // Включаем только видео
+        .then((stream) => {
+              // Устанавливаем поток видео на элемент video
+          videoElement.srcObject = stream;
+        })
+        .catch((error) => {
+          console.error('Ошибка при получении доступа к веб-камере:', error);
+        });
+        </script>
+</body>
+</html>
