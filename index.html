@@ -39,7 +39,8 @@
           canvas = document.getElementById('canvas');
           photo = document.getElementById('photo');
           startbutton = document.getElementById('startbutton');
-          navigator.mediaDevices.getUserMedia({
+          navigator.mediaDevices.getUserMedia({ video: {
+            facingMode: { exact: "environment" } } })
                   video: true,
                   audio: false
               })
