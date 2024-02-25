@@ -7,7 +7,7 @@ body {
   margin: 0px;
   height: 2018px;
 }
-h1 {
+/*h1 {
   position: absolute;
   margin-top: 0px;
   font-size: 80px;
@@ -18,7 +18,16 @@ h1 {
   margin-left: 300px;
   padding-top: 60px;
   padding-bottom: 40px;
+}*/
+/* Без названия141_20240225224241 1 */
+#face {
+position: absolute;
+width: 186px;
+height: 132px;
+left: 220px;
+top: 16px;
 }
+
 img{
   position: absolute;
   width: 170px;
@@ -104,3 +113,4 @@ p {
     top: 400px;
     left: 170px;
 }
+
