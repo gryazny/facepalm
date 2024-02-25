@@ -1,7 +1,11 @@
+html {
+  height: 2018px;
+}
+
 body {
   background-color: #587994;
   margin: 0px;
-  height: 2018;
+  height: 2018px;
 }
 h1 {
   position: absolute;
@@ -11,7 +15,7 @@ h1 {
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
-  margin-left: 345px;
+  margin-left: 300px;
   padding-top: 60px;
   padding-bottom: 40px;
 }
@@ -20,6 +24,7 @@ img{
   width: 170px;
   margin-left: 185px;
   margin-top: 26px;
+  opacity: 0;
 }
 .circle {
   position: absolute;
@@ -54,9 +59,10 @@ p {
 
 #video {
     border: 1px solid black;
-    box-shadow: 2px 2px 3px black;
-    width: 700px;
+    box-shadow: 2px 2px 30px black;
+    width: 525px;
     height: 700px;
+    margin-left: 70px;
 }
 #photo {
     border: 1px solid black;
